@@ -49,7 +49,7 @@ class Kicad < Formula
     system "cmake", ".", *args
 
     # fix the osx search path for the library components to the homebrew directory
-    inreplace 'common/edaappl.cpp','/Library/Application Support/kicad', "#{HOMEBREW_PREFIX}/share/kicad"
+    inreplace 'common/edaappl.cpp','/Library/Application Support', "#{HOMEBREW_PREFIX}/share/kicad"
 
     system "make install"
   end

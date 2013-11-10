@@ -6,7 +6,7 @@ I try to update this daily for KICAD Builds
 
 ## Install
 
-    brew tap shaneburrell/homebrew-kicad
+    brew tap limhyon/homebrew-kicad
     brew install --HEAD kicad
 
 ## Contributions and Original Work

@@ -19,7 +19,7 @@ class Kicad < Formula
   def patches
     [
     # fixes wx-config not requiring aui module
-    "https://gist.github.com/raw/4602653/0e4397884062c8fc44a9627e78fb4d2af20eed5b/gistfile1.txt",
+    #"https://gist.github.com/raw/4602653/0e4397884062c8fc44a9627e78fb4d2af20eed5b/gistfile1.txt",
     # enable retina display for OSX
     "https://gist.github.com/raw/4602849/2fe826c13992c4238a0462c03138f4c6aabd4968/gistfile1.txt",
     #Various small patches to KICAD for OSX
